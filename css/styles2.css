@@ -314,7 +314,6 @@ table tbody tr:nth-child(even) {
   color: var(--crema);
 }
 
-/* ---------- 12. ENLACES, FOCO Y ACCESIBILIDAD ---------- */
 a {
   color: var(--bs-link-color);
   text-decoration: none;
@@ -341,7 +340,7 @@ textarea:focus-visible {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  z-index: 1050; /* por encima del navbar fijo, por debajo del modal */
+  z-index: 1050;
   background-color: var(--verde-ruta);
   color: var(--crema);
   padding: 0.7rem 1rem;
